@@ -1,20 +1,26 @@
-function fatorial(num) {
-  switch (num) {
-    case 1:
-      return "Fim de semana";
-    case 2: 
-      return "Dia útil";
-    case 3: 
-      return "Dia útil";
-    case 4: 
-      return "Dia útil";
-    case 5: 
-      return "Dia útil";
-    case 6: 
-      return "Dia útil";
-    case 7: 
-      return "Fim de semana";
-    default:
-      return "Dia inválido";
-  }
+switch (1) {
+  case 1:
+    console.log("Fim de semana");
+    break;
+  case 2:
+    console.log("Dia útil");
+    break;
+  case 3:
+    console.log("Dia útil");
+    break;
+  case 4:
+    console.log("Dia útil");
+    break;
+  case 5:
+    console.log("Dia útil");
+    break;
+  case 6:
+    console.log("Dia útil");
+    break;
+  case 7:
+    console.log("Fim de semana");
+    break;
+  default:
+    console.log("Dia inválido");
+    break;
 }
